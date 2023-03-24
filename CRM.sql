@@ -12,7 +12,8 @@ File Encoding         : 65001
 
 Date: 2019-11-26 09:23:26
 */
-
+CREATE DATABASE IF NOT EXISTS crm DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+use crm;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
